@@ -1,12 +1,39 @@
-import Image from 'next/image'
-import Pepe from "./bodyset";
+import Navbar from '../app/components/Navbar';
+import Hero from '../app/components/Hero';
+import Footer from '../app/components/Footer';
+import ArticleCard from '../app/components/ArticleCard';
 
+const articles = [
+  {
+    title: 'Mantenimiento Preventivo',
+    description: 'Realizamos mantenimiento preventivo para evitar futuros problemas con tu vehículo.',
+    image: '/images/service1.jpg',
+  },
+  {
+    title: 'Reparación de Motor',
+    description: 'Especialistas en reparación de motores de todo tipo de vehículos.',
+    image: '/images/service2.jpg',
+  },
+  {
+    title: 'Alineación y Balanceo',
+    description: 'Servicio de alineación y balanceo para un mejor rendimiento de tus llantas.',
+    image: '/images/service3.jpg',
+  },
+];
 
 export default function Home() {
-  return ( 
-    <>
-    <Pepe />
-  
-    </>
-  )
+  return (
+    <div className="flex flex-col min-h-screen">
+      <Navbar />
+      <Hero />
+      <div className="container mx-auto px-4 py-8 flex-1">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          {articles.map((article, index) => (
+            <ArticleCard key={index} {...article} />
+          ))}
+        </div>
+      </div>
+      <Footer />
+    </div>
+  );
 }
