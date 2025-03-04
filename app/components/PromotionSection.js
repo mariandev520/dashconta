@@ -77,7 +77,7 @@ const PromotionSection = () => {
                   &quot;El servicio de cambio de aceite fue rápido y eficiente. ¡Mi coche se siente como nuevo!&quot;
                 </p>
                 <cite className="mt-4 block font-semibold not-italic text-white">
-                  Carlos, Madrid
+                  Carlos
                 </cite>
               </div>
             </blockquote>
@@ -99,7 +99,7 @@ const PromotionSection = () => {
                   &quot;Excelente atención y servicio. Mi coche necesitaba un cambio de filtro urgente y lo solucionaron rápidamente.&quot;
                 </p>
                 <cite className="mt-4 block font-semibold not-italic text-white">
-                  Laura, Barcelona
+                  Laura
                 </cite>
               </div>
             </blockquote>
@@ -121,7 +121,7 @@ const PromotionSection = () => {
                   &quot;Muy contento con el servicio. Me explicaron todo el proceso y me dieron consejos útiles para el mantenimiento de mi coche.&quot;
                 </p>
                 <cite className="mt-4 block font-semibold not-italic text-white">
-                  Javier, Valencia
+                  Javier
                 </cite>
               </div>
             </blockquote>

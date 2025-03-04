@@ -12,12 +12,12 @@ const articles = [
   {
     title: 'Reparación de Motor',
     description: 'Especialistas en reparación de motores de todo tipo de vehículos.',
-    image: '/images/image2.jpg',
+    image: '/images/image4.jpg',
   },
   {
-    title: 'Alineación y Balanceo',
+    title: 'Diagnostico Digital',
     description: 'Servicio de alineación y balanceo para un mejor rendimiento de tus llantas.',
-    image: '/images/image1.jpg',
+    image: '/images/diagnos.jpg',
   },
 ];
 
