@@ -7,17 +7,17 @@ const articles = [
   {
     title: 'Mantenimiento Preventivo',
     description: 'Realizamos mantenimiento preventivo para evitar futuros problemas con tu vehículo.',
-    image: '/images/service1.jpg',
+    image: '/images/iamges.jpeg',
   },
   {
     title: 'Reparación de Motor',
     description: 'Especialistas en reparación de motores de todo tipo de vehículos.',
-    image: '/images/service2.jpg',
+    image: '/images/image2.jpg',
   },
   {
     title: 'Alineación y Balanceo',
     description: 'Servicio de alineación y balanceo para un mejor rendimiento de tus llantas.',
-    image: '/images/service3.jpg',
+    image: '/images/image1.jpg',
   },
 ];
 
